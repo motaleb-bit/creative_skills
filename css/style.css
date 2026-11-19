@@ -1,0 +1,22 @@
+/* //common css start here // */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+ol,ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8px;
+}
+/* //common css end here // */
