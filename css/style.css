@@ -18,10 +18,10 @@ a {
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
     padding: 0;
-    line-height: 0.8px;
+    /* line-height: 0.8px; */
 }
 /* //common css end here // */
-/* //banner part start // */
+/* //header part start // */
 .nav_item {
     display: flex;
     align-items: center;
@@ -68,6 +68,38 @@ h1,h2,h3,h4,h5,h6,p {
 .nav_list ul {
     margin-bottom: 0px !important;
 }
-
-/* //banner part end // */
+/* //header part end // */
 /* //banner part start here// */
+.banner_left h1 {
+    font-weight: 600;
+    field-size:70px;
+    line-height: 90px;
+    color: #414141;
+    width: 334px;
+    margin-top: 168px;
+}
+.banner_left p {
+    font-weight: 400;
+    field-size:24px;
+    line-height: 36px;
+    color: #9D9D9D;
+    width: 433px;
+    margin-top: 30px;
+    height: 55px;
+    margin-bottom: 50px;
+}
+.banner_left_button button {
+    padding:15px 20px ;
+    width: 174px;
+    background: #F6A51B;
+    color:#FFFFFF;
+    border: 1px solid #F6A51B;
+    border-radius:10px ;
+    margin-top: 50px;
+    transition: all liear 0.3s;
+}
+.banner_left_button button:hover{
+    background:transparent;
+    color: #F6A51B;
+}
+/* //banner part end here// */
